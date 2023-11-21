@@ -13,4 +13,10 @@ spec:
           value: "prod"
         - name: GPU_ENABLED
           value: "1"
-      
+---         
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: prod
+  labels:
+    name: prod
