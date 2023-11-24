@@ -29,5 +29,5 @@ spec:
     - /annotations/creation
   - group: apps
     kind: Secret
-    jsonPointeres: 
+    jsonPointers: 
     - /data/my-password
