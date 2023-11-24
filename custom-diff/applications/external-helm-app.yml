@@ -27,7 +27,7 @@ spec:
     kind: Deployment
     jsonPointers:
     - /metadata/creation
-  - group: secret
-    kind: Deployment
+  - group: apps
+    kind: Secret
     jsonPointeres: 
-    - /spec/my-password
+    - /data/my-password
